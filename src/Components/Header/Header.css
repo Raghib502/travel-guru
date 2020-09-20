@@ -1,0 +1,8 @@
+.background{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../Images/Image/Rectangle 1.png") ;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+}
+

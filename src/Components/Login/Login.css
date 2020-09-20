@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.box{
+    border-radius: 5px;
+}
+
+.login{
+    flex-direction: row;
+    padding: 13px 180px;
+    width: 140px;
+    height: 50px;
+    background: #F9A51A;
+}
+.signInMethod{
+ margin-top: 20px;  
+width: 361px;
+height: 51px;
+/* left: 492px;
+top: 696px; */
+
+background: #FFFFFF;
+border: 1px solid #C7C7C7;
+box-sizing: border-box;
+border-radius: 57px;
+}

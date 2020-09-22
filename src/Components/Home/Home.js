@@ -6,7 +6,7 @@ const Home = () => {
     const style = {
         display: 'flex',
         margin: '40px',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',       
     }
     const places = [
         {
@@ -18,15 +18,13 @@ const Home = () => {
         {
             title : 'Shreemangal',
             description:'Madhobpur Lake is one of the main tourist attractions in the area, and is home to the Great White-Bellied Heron, the only confirmed site in Bangladesh.',
-            imgUrl:'https://chokkor.com/wp-content/uploads/2019/02/Sreemangal-2.jpg',
-            
+            imgUrl:'https://chokkor.com/wp-content/uploads/2019/02/Sreemangal-2.jpg',      
             placeName:'sremongol'
         },
         {
             title : 'Sundorban',
             description:'The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal.',
             imgUrl:'https://www.daily-bangladesh.com/media/imgAll/2020March/en/sundarban-2005210403.jpg',
-            
             placeName:'sundarban'
         }
     ]

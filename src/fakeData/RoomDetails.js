@@ -3,18 +3,18 @@ export default [
         key: 1 ,
         name: 'Double' ,
         rent: 800,
-        image : 'https://img-a.udemycdn.com/course/240x135/978728_0af3_5.jpg'
+        image : 'https://media-cdn.tripadvisor.com/media/photo-m/1280/14/d6/a8/fc/hotel-white-beach.jpg'
     },
     {
         key: 2 ,
         name: 'Family' ,
         price: 446,
-        image : 'https://img-a.udemycdn.com/course/240x135/19332_6b49_15.jpg'
+        image : 'https://pix10.agoda.net/hotelImages/617/6171727/6171727_18112214100069860537.jpg'
     },
     {
         key: 3 ,
         name: 'Single' ,
         price: 78,
-        image : 'https://img-a.udemycdn.com/course/240x135/548278_b005_9.jpg'
+        image : 'https://cf.bstatic.com/images/hotel/max1024x768/124/124155732.jpg'
     }
 ]

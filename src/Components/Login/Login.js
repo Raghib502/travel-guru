@@ -112,12 +112,12 @@ return(
       
   </Form>
   {
-      user.isSignedIn ? <button onClick={signOut}>Sign Out</button> :
-      <button className="signInMethod" onClick={googleSignIn}>Sign in using Google</button>
+      user.isSignedIn ? <Button onClick={signOut}>Sign Out</Button> :
+      <Button className="signInMethod" onClick={googleSignIn}> <img src="../../Images/Icon/google.png" alt=""/> Sign in using Google</Button>
     
     }
     <br/>
-    <button className="signInMethod" onClick={fbSignIn}>Sign in using Facebook</button>
+    <Button className="signInMethod" onClick={fbSignIn}>Sign in using Facebook</Button>
     
     {
       user.isSignedIn && <div><p>Welcome, {user.name}</p>
@@ -126,58 +126,7 @@ return(
   <p style={{color:'red'}}>{user.error}</p>
   {user.success && <p style={{color:'green'}}>User {newUser ? 'created' : 'Logged In'} successfully</p>}
       
-</div>
-
-
-
-
-//  <div className='container'>
-//     <Form onSubmit={handleSubmit}> 
-
-//     <Form.Group controlId="formBasicName">
-//         {
-//         newUser && <Form.Label>Name</Form.Label>
-//         }
-//     {newUser && <Form.Control type="name" onBlur={handleBlur} placeholder="Enter your name" />
-        
-//      }
-//     </Form.Group>
-
-//     <Form.Group controlId="formBasicEmail">
-    
-//         <Form.Label>Email address</Form.Label>
-//         <Form.Control type="email" onBlur={handleBlur} placeholder="Enter email" />
-//     </Form.Group>
-
-//     <Form.Group controlId="formBasicPassword">
-//         <Form.Label>Password</Form.Label>
-//         <Form.Control type="password" onBlur={handleBlur} placeholder="Password" />
-//     </Form.Group>
-//     <Form.Group controlId="formBasicCheckbox">
-//         <Form.Check type="checkbox" onChange={() => setNewUaser(!newUser)} label="New user Sign Up" />
-//         <Button inputType="submit" value={newUser ? 'Sign Up' : 'Sign In'}></Button>
-//         <Button onClick={()=> setLoggedInUser({})}>Sign Out</Button>
-//     </Form.Group>
-//     <Button variant="primary" type="submit"  value={newUser ? 'Sign Up' : 'Sign In'}>
-//         Submit
-//     </Button>
-    
-//     {
-//      user.isSignedIn ?<button onClick={signOut}>Sign Out</button> : <button className="btn btn-lg btn-google btn-block text-uppercase" onClick={googleSignIn} type="submit"><i class="fab fa-google mr-2"></i> Sign in with Google</button>
-//       }
-
-//      <button class="btn btn-lg btn-facebook btn-block text-uppercase" onClick={fbSignIn} type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign in with Facebook</button>
-//  {
-//            user.isSignedIn && <div> <p>Welcome, {user.name}</p>
-//            </div>
-//          }
-//         <p style={{color:'red'}}>{user.error}</p>
-//            {user.success && <p style={{color:'green'}}>User {newUser ? 'created' : 'Logged In'} successfully</p>}
-//     </Form>
-
-
-     
-//          </div>       
+</div>   
 );
 
 }

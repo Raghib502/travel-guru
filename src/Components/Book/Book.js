@@ -4,9 +4,8 @@ import Details from '../Details/Details';
 import RoomDetails from '../../fakeData/RoomDetails';
 
 
-const Book = (room) => {
+const Book = () => {
     const {placeName} = useParams();
-    const newRoom = [...book , room]
 
     return (
          <div>

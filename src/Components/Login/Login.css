@@ -18,14 +18,12 @@
     background: #F9A51A;
 }
 .signInMethod{
- margin-top: 20px;  
-width: 361px;
-height: 51px;
-/* left: 492px;
-top: 696px; */
-
-background: #FFFFFF;
-border: 1px solid #C7C7C7;
-box-sizing: border-box;
-border-radius: 57px;
+    color: black ;
+    margin-top: 20px;  
+    width: 361px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-sizing: border-box;
+    border-radius: 57px;
 }

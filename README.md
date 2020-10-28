@@ -1,3 +1,7 @@
+•	It is a hotel management app.
+•	User can choose place, book hotel room.
+•	User get hotel suggestion based on their selected place.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
